@@ -1,0 +1,10 @@
+file_type: csv 
+dataset_name: netflix movie history
+file_name: train
+table_name: watch records
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - movie
+    - user
